@@ -13,17 +13,17 @@ docker network create jenkinsnet
 ```
 #### Descargar los archivos
 ```bash
-git clone https://github.com/urledit
+git clone https://github.com/invazhor/dockercomposejenkins_sonarqube.git
 ```
 #### Para iniciar el contenedor Jenkins ingresar al directorio 
 ```bash
-cd dir/jenkins
+cd dockercomposejenkins_sonarqube/Jenkins
 docker-compose up
 ```
 
 #### Para iniciar el contenedor Sonarqube ingresar al directorio 
 ```bash
-cd dir/sonarqube
+cd dockercomposejenkins_sonarqube/Sonarqube
 docker-compose up -d
 ```
 ## Comandos utiles
