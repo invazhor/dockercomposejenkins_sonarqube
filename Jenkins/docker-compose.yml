@@ -15,5 +15,5 @@ services:
 
 networks:
   default:
-      external:
-        name: jenkinsnet
+    external: true
+    name: jenkinsnet
